@@ -1,2 +1,21 @@
-# sports-festival-runners
-Basketball Runner and Rolling Football — mobile sports arcade
+# SPORTS FESTIVAL ARCADE
+
+**[ゲームをプレイ](https://itsukit0723-netizen.github.io/sports-festival-runners/)**
+
+BASKETBALL RUNNER / ROLLING FOOTBALL。スマートフォン・PCで遊べる2つのゲームです。
+
+## 最新更新（2026-10-16）
+
+- コイン／スターをジャンプ軌道・安全な通路に沿って配置し、障害物の最大移動範囲も考慮。
+- バスケは通常速度を約6％上げ、横長障害物を従来の約90％に縮小。
+- バスケの表示回転を遅くし、BOOST／FEVERでは横方向だけ加速。ジャンプの高さ・落下・着地時刻は通常と共通。
+- サッカーは月明かり・暖色照明の夜のコートへ変更。壁を金属フレームとパッド付きバリケードへ再設計。
+- 自動テスト18件成功。
+
+## 文化祭アプリへの組み込み用データ
+
+[最新ソースZIP](./sports-festival-runners-source.zip) にReact / TypeScriptのソース、依存関係のロックファイル、テスト、起動手順を収録しています。Node.js 24で `npm ci` → `npm test` → `npm run build` を実行できます。
+
+このリポジトリのルートは本番配信用です。ソースZIPを展開したファイルでルートをそのまま上書きせず、ビルドした `dist/` の中身を配置してください。
+
+最高記録は端末とブラウザーごとの保存です。共通ランキングやアカウント連携は別途接続が必要です。
