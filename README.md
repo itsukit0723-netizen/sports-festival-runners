@@ -212,3 +212,13 @@ BASKETBALL RUNNER / ROLLING FOOTBALL。スマートフォン・PCで遊べる2�
 
 100人テスト版にも同じゲーム修正を反映。ドッヂ・管理画面・既存記録は維持しています。実機のiPhone Safari、Android、感圧ハードウェア、100台同時プレイは未確認です。詳しい再実行手順と検証範囲はソースZIP内のQA-AUDIT-20261025.mdを参照してください。
 
+
+
+## 2026-10-26 — GOLDEN TIME / 2ゲーム共通イベント
+
+バスケはCROWN COURT、サッカーはCHAMPIONS PARADEの豪華演出に対応しました。開始タイトル・黄金の照明・3Dゲート・軌跡・紙吹雪・専用リザルトとファンファーレ、獲得スコア2倍を追加。ジャンプ・速度・コース・衝突・カメラは維持しています。
+
+Firebase管理画面の一括ON/OFFにGitHub版も連動します。新しいプレイ・RETRYごとに開催状態を取得し、進行中のモードは終了まで固定。通常BESTとイベントBESTは別保存です。
+
+演出だけを確認する場合は [プレビュー](https://itsukit0723-netizen.github.io/sports-festival-runners/?golden=preview) を開いてください。開催状態は変わらず、プレビューのBESTは保存しません。文化祭アプリへの統合方法はソースZIP内のGOLDEN-TIME.mdを参照してください。
+
